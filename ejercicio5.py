@@ -1,6 +1,17 @@
-lista_de_numeros = [2.12, 345.8, 908.65, 1.99, 234.49, 6754.31, 7262.99, 990.7, 6534.23, 3.8, 21.5]
+diccionario_decimales = {}
 
-redondeo_entero = dict(map(round,lista_de_numeros))
+diccionario_decimales = dict()
 
+diccionario_decimales = {
+    "primero": 4.9,
+    "segundo": 2.1,
+    "tercero": 3.87,
+    "cuarto": 1.5,
+    "quinto": 5.2,
+    "sexto": 9.96,
+    "sétimo": 8.11
+}
 
-print(redondeo_entero)
+diccionario_decimales_redondeados = dict(map(round, diccionario_decimales))
+
+print(diccionario_decimales_redondeados)
